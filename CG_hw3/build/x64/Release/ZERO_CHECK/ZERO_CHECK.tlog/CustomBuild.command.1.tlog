@@ -1,0 +1,10 @@
+^E:\PROGRAM FILES\CODE\CG\CG_HW3\BUILD\CMAKEFILES\F795C83A8642D33DE58F0C3BB175C24D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Program Files/Code/CG/CG_hw3" "-BE:/Program Files/Code/CG/CG_hw3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Program Files/Code/CG/CG_hw3/build/CG_hw3.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
