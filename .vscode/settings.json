@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "E:/Program Files/Code/CG/vcpkg/ports/alac"
+    "cmake.sourceDirectory": "E:/Program Files/Code/CG/vcpkg/ports/alac",
+    "files.associations": {
+        "xstring": "cpp",
+        "filesystem": "cpp"
+    }
 }
