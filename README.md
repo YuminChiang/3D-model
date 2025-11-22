@@ -1,4 +1,5 @@
 # 3D-model
+https://www.youtube.com/watch?v=pmI8FD3t-Bc
 
 A collection of projects for computer graphics assignments leveraging modern OpenGL and C++. Each subfolder (CG_hw1, CG_hw2, CG_hw3) contains implementations related to 3D modeling, camera manipulation, transformation, and rendering. These assignments use libraries such as GLEW, GLUT, and GLM.
 
